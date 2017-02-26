@@ -29,7 +29,7 @@ app.use('/groups', groups);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
-  var err = new Error('That is Not Found mokies 1');
+  var err = new Error('That is Not Found mokies 2');
   err.status = 404;
   next(err);
 });
