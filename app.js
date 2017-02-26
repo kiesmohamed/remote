@@ -25,7 +25,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 app.use('/users', users);
 app.use('/contacts', contacts);
-app.use('/groups', groups);
+app.use('/refe ', groups);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
