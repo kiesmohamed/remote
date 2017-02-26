@@ -30,10 +30,14 @@ app.use('/refe ', groups);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
 <<<<<<< HEAD
+<<<<<<< HEAD
   var err = new Error('That is Not Found mokies');
 =======
   var err = new Error('that is Not Found  ');
 >>>>>>> résolution du conflit
+=======
+  var err = new Error('that is Not Found');
+>>>>>>> changement du message d'erreur en cas de 404
   err.status = 404;
   next(err);
 });
