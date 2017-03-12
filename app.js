@@ -26,7 +26,7 @@ app.use('/', index);
 app.use('/users', users);
 app.use('/contacts', contacts);
 app.use('/groups', groups);
-
+ 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('that is Not Found');
